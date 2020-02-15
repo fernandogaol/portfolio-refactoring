@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Fernando's Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container navbar">
+      <header>
+        <div class="logo">
+          <h1>Fernando</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#work">my work</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container main-info-section">
+      <div class="text">
+        <h1>
+          <span>Hi, </span>
+          <br />
+          <span>I am </span>
+          <span class="name">Fernando</span><span>,</span>
+          <br />
+          <span>Full Stack Web Developer.</span>
+        </h1>
+        <p>CSS / Javascript / React / NodeJs / Postgresql / Mongo</p>
+        <a href="#contact">Contact me</a>
+      </div>
+      <div class="profile-image">
+        <img src="./img/profile-pic.jpg" alt="profile picture" />
+      </div>
+    </div>
+
+    <div class="container about" id="about">
+      <h1>About</h1>
+      <section class="info-about-me">
+        <p>
+          Hi and welcome to my page. My name is Fernando Gaol and I am based in
+          Provo, UT. My story as a developer started when I was 13 and I decided
+          to build a game. I was able to pull it off by watching tutorials, but
+          I had no idea how that code worked. From there on, I tried building
+          more complex games, but my abilities were limited. I failed multiple
+          times so I decided to learn more in depth how to code. However, when I
+          was searching for game development on the web, I also found web
+          development. For some reason, web development caught my attention the
+          most so I started taking some courses on Code Academy such as HTML,
+          CSS, and JavaScript. I started coding for hours every day so that I
+          could get better at what I like to do the most. Over time, I improved
+          a lot and gained more skills, but I got to a point where the courses
+          were no longer helping me learn and I hit a plato. That is why I am
+          currently taking a Full Stack Bootcamp at Thinkful. My goal is make to
+          the best out of it and utilize all the resources that I now have
+          available such as mentors, instructors and technical support. I
+          strongly believe that with this cohort, I will be able to fill in the
+          gap and gain the skills I have not yet been able to acquire. Apart
+          from coding, I like to play soccer, volleyball, and play games on the
+          computer such as League of Legends, Call of Duty, and more. I also
+          like learning new languages and spending time with friends and family,
+          even though I spend most of my days on the computer. Other than that,
+          I am married and I don't have any kids yet, but I do plan to have a
+          couple of them after I develop my skills as a web developer.
+        </p>
+      </section>
+      <img src="./img/dotted-shape.jpg" alt="" />
+    </div>
+
+    <main id="main">
+      <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">
+          Do am he horrible distance marriage so although. Afraid assure square
+          so happen mr an before. His many same been well can high that.
+          Forfeited did law eagerness allowance improving assurance bed. Had saw
+          put seven joy short first. Pronounce so enjoyment my resembled in
+          forfeited sportsman. Which vexed did began son abode short may.
+          Interested astonished he at cultivated or me. Nor brought one invited
+          she produce her.
+        </p>
+        <section class="html">
+          <div class="tag-html">
+            <p>HTML</p>
+          </div>
+          <div class="progressbar">
+            <div class="html-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-javascript">
+            <p>Javascript</p>
+          </div>
+          <div class="progressbar">
+            <div class="javascript-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-react">
+            <p>ReactJs</p>
+          </div>
+          <div class="progressbar">
+            <div class="react-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-jquery">
+            <p>JQuery</p>
+          </div>
+          <div class="progressbar">
+            <div class="jquery-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-node">
+            <p>NodeJs</p>
+          </div>
+          <div class="progressbar">
+            <div class="node-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-express">
+            <p>Express</p>
+          </div>
+          <div class="progressbar">
+            <div class="express-bar"></div>
+          </div>
+        </section>
+        <section class="html">
+          <div class="tag-postgres">
+            <p>Postgresql</p>
+          </div>
+          <div class="progressbar">
+            <div class="postgresql-bar"></div>
+          </div>
+        </section>
+      </div>
+      <section class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+          <button id="Javascript" class="active">
+            Javascript Projects
+          </button>
+          <button id="node">
+            Node Projects
+          </button>
+          <button id="postgresql">
+            Postgresql Projects
+          </button>
+        </div>
+        <div class="category show-category">
+          <a href=""><img src="./img/1.png" alt=""/></a>
+          <a href=""><img src="./img/2.jpg" alt=""/></a>
+          <a href=""><img src="./img/3.jpg" alt=""/></a>
+          <a href=""><img src="./img/4.jpg" alt=""/></a>
+          <a href=""><img src="./img/5.jpg" alt=""/></a>
+        </div>
+      </section>
+      <section class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form action="">
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <input type="text" name="contact" placeholder="Phone number" />
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" />
+        </form>
+      </section>
+      <footer>
+        <p>2020 Copyright. All Rights Reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
