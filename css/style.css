@@ -72,11 +72,11 @@ li a:hover {
   height: calc(100vh - 50px);
 }
 .text {
-  margin-top: 220px;
+  margin-top: 270px;
 }
 .text h1 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.2rem;
   cursor: context-menu;
 }
 span:hover {
@@ -87,6 +87,7 @@ span.name {
   color: #ed5565;
 }
 .text p {
+  margin-top: 3px;
   letter-spacing: 3px;
   word-spacing: 10px;
   font-size: 0.8rem;
@@ -305,7 +306,7 @@ form input:last-child {
   cursor: pointer;
 }
 form input:last-child:hover {
-  opacity: 0.7;
+  background-color: #181818;
 }
 footer hr {
   border: 2px solid #707070;
